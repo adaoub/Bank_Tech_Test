@@ -33,6 +33,10 @@ class BankAccount {
   getBalance = () => {
     return this.balance;
   };
+
+  getStatement = () => {
+    return this.statement;
+  };
 }
 
 module.exports = BankAccount;
