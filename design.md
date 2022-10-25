@@ -29,7 +29,7 @@ date || credit || debit || balance
 
 3- Function that calculates the total balance
 
-    getTotal()
+    getBalance()
 
 4- Function that renders the table and object
 
