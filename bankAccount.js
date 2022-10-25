@@ -10,6 +10,11 @@ class BankAccount {
     this.credit = amount;
   };
 
+  makeWithdraw = (amount, date) => {
+    this.balance -= amount;
+    this.date = date;
+    this.debit = amount;
+  };
   getBalance = () => {
     return this.balance;
   };
