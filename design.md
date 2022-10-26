@@ -19,6 +19,8 @@ date || credit || debit || balance
 
 # Design
 
+### BankAccount class :
+
 1- Function that gets the amonut deposited
 
     makeDeposit(amount, date)
@@ -27,10 +29,14 @@ date || credit || debit || balance
 
     makeWithdraw(amount, date)
 
-3- Function that calculates the total balance
+3- Function that returns the total balance
 
     getBalance()
 
-4- Function that renders the table and object
+4- Function that returns the statement array
 
-    displayStatement()
+### Formatter Class:
+
+5- Function that renders the table and object
+
+    formatStatement()
